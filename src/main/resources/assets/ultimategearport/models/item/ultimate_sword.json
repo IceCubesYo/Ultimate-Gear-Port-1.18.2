@@ -1,0 +1,6 @@
+{	
+	"parent": "item/handheld",
+	"textures": {
+		"layer0":"ultimategearport:item/ultimate_sword"
+	}
+}

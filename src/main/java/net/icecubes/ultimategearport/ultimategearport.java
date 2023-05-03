@@ -1,6 +1,11 @@
 package net.icecubes.ultimategearport;
 
-import net.minecraft.world.level.block.Blocks;
+import net.icecubes.ultimategearport.block.ModBlocks;
+import net.icecubes.ultimategearport.effects.MobEffects;
+import net.icecubes.ultimategearport.item.ModItems;
+import net.icecubes.ultimategearport.util.ModItemProperties;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -16,14 +21,22 @@ public class ultimategearport {
     public static final Logger LOGGER = LogManager.getLogger();
 
     public ultimategearport() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
+        MobEffects.register(eventBus);
+
+        eventBus.addListener(this::setup);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
 
     private void setup(final FMLCommonSetupEvent event){
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.APPLE_LEAVES.get(), RenderType.cutout());
+
+        ModItemProperties.addCustomItemProperties();
     }
 }

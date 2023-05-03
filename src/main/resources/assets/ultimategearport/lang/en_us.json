@@ -1,0 +1,32 @@
+{
+	"block.ultimategearport.deepslate_uranium_ore": "Deepslate Uranium Ore",
+    "block.ultimategearport.uranium_ore": "Uranium Ore",
+    "item.ultimategearport.uranium_ingot": "Uranium Ingot",
+    "item.ultimategearport.uranium_nugget": "Uranium Nugget",
+    "block.ultimategearport.uranium_block": "Uranium Block",
+    
+    "block.ultimategearport.deepslate_titanium_ore": "Deepslate Titanium Ore",
+    "block.ultimategearport.titanium_ore": "Titanium Ore",
+    "item.ultimategearport.titanium_ingot": "Titanium Ingot",
+    "item.ultimategearport.titanium_nugget": "Titanium Nugget",
+    "block.ultimategearport.titanium_block": "Titanium Block",
+    
+    "item.ultimategearport.ultimate_pickaxe": "Ultimate Pickaxe",
+  	"item.ultimategearport.ultimate_axe": "Ultimate Axe",
+  	"item.ultimategearport.ultimate_shovel": "Ultimate Shovel",
+ 	"item.ultimategearport.ultimate_hoe": "Ultimate Hoe",
+	"item.ultimategearport.ultimate_sword": "Ultimate Sword",
+	"item.ultimategearport.ultimate_bow": "Ultimate Bow",
+	
+	"item.ultimategearport.ultimate_helmet": "Ultimate Helmet",
+  	"item.ultimategearport.ultimate_chestplate": "Ultimate Chestplate",
+  	"item.ultimategearport.ultimate_leggings": "Ultimate Leggings",
+ 	"item.ultimategearport.ultimate_boots": "Ultimate Boots",
+ 	
+ 	"block.ultimategearport.duplicatortree_log": "Duplicator Tree Log",
+ 	"block.ultimategearport.apple_leaves": "Apple Tree Leaves",
+
+	"item.ultimategearport.miners_dream": "Miners Dream",
+    
+    "itemGroup.ultimategearport": "Ultimate Gear Tab"
+}
