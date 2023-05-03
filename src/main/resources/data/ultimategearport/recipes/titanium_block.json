@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "uuu",
+        "uuu",
+        "uuu"
+    ],
+    "key": {
+        "u": {
+            "item": "ultimategearport:titanium_ingot"
+        }
+    },
+    "result": {
+        "item": "ultimategearport:titanium_block",
+        "count": 1
+    }
+}

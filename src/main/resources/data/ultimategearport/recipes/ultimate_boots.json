@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "T T",
+    "U U"
+  ],
+  "key": {
+    "T": {
+      "item": "ultimategearport:titanium_ingot"
+    },
+    "U": {
+      "item": "ultimategearport:uranium_ingot"
+    }
+  },
+  "result": {
+    "item": "ultimategearport:ultimate_boots"
+  }
+}

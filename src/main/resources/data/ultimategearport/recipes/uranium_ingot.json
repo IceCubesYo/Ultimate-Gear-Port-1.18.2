@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "uuu",
+        "uuu",
+        "uuu"
+    ],
+    "key": {
+        "u": {
+            "item": "ultimategearport:uranium_nugget"
+        }
+    },
+    "result": {
+        "item": "ultimategearport:uranium_ingot",
+        "count": 1
+    }
+}

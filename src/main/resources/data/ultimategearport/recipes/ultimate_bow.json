@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " TS",
+    "I S",
+    " US"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "U": {
+      "item": "ultimategearport:uranium_ingot"
+    },
+    "T": {
+      "item": "ultimategearport:titanium_ingot"
+    },
+    "S": {
+      "item": "minecraft:string"
+      }
+    },
+  "result": {
+    "item": "ultimategearport:ultimate_bow"
+  }
+}

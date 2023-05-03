@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"ultimategearport:uranium_block",
+		"ultimategearport:titanium_block",
+		"ultimategearport:deepslate_uranium_ore",
+		"ultimategearport:uranium_ore",
+		"ultimategearport:titanium_ore",
+		"ultimategearport:deepslate_titanium_ore"
+	]
+}

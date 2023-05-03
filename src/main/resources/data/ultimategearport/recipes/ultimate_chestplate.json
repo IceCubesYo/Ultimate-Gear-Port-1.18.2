@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "TTT",
+    "UUU"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "U": {
+      "item": "ultimategearport:uranium_ingot"
+    },
+    "T": {
+      "item": "ultimategearport:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "ultimategearport:ultimate_chestplate"
+  }
+}
