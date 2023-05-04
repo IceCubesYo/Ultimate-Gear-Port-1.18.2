@@ -1,7 +1,7 @@
-package net.icecubes.ultimategearport.util;
+package util;
+
 
 import net.icecubes.ultimategearport.item.ModItems;
-
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;

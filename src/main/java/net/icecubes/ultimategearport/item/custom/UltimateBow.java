@@ -1,4 +1,4 @@
-package net.icecubes.ultimategearport.util;
+package net.icecubes.ultimategearport.item.custom;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.BowItem;

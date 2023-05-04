@@ -28,5 +28,7 @@
 
 	"item.ultimategearport.miners_dream": "Miners Dream",
     
-    "itemGroup.ultimategearport": "Ultimate Gear Tab"
+    "itemGroup.ultimategearport": "Ultimate Gear Tab",
+
+	"effect.ultimategearport.feed": "Breast Feeder",
 }
